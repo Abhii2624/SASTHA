@@ -1,0 +1,45 @@
+{
+    "features": [
+        "age",
+        "bmi",
+        "children",
+        "sex_male",
+        "smoker_yes",
+        "claim_amount",
+        "annual_salary"
+    ],
+    "target": "charges",
+    "train_r2": 0.009126583088527207,
+    "test_r2": -0.03365073544330688,
+    "coefficients": [
+        {
+            "feature": "sex_male",
+            "coefficient": -1344.80051021574
+        },
+        {
+            "feature": "smoker_yes",
+            "coefficient": -840.005109996255
+        },
+        {
+            "feature": "children",
+            "coefficient": 495.46434615777724
+        },
+        {
+            "feature": "bmi",
+            "coefficient": -92.25092436689636
+        },
+        {
+            "feature": "age",
+            "coefficient": -23.788091373913442
+        },
+        {
+            "feature": "claim_amount",
+            "coefficient": 0.034983234054251966
+        },
+        {
+            "feature": "annual_salary",
+            "coefficient": -0.004700464676467675
+        }
+    ],
+    "intercept": 29821.079596878328
+}
